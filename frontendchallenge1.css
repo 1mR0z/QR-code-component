@@ -18,15 +18,16 @@ flex-direction: column;
 background-color: var(--light-gray);
 align-items: center;
 justify-content: center;
-height: calc(100vh-1px);
+min-height: 100vh;
 margin: 1.25rem;
 }
 .container img{
     border-radius: 0.625rem;
     margin-bottom: 1rem;
+    width: 270px;
 }
-.container h1{
-    color: dark black;
+.container h3{
+    color: var(--dark-blue);
     margin: 1rem;
 }
 .container p{
@@ -39,4 +40,6 @@ margin: 1.25rem;
     padding:1.25rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
+    width: min-content;
+    text-align: center;
 }
