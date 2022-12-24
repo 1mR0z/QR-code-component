@@ -40,6 +40,7 @@ margin: 1.25rem;
     padding:1.25rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
-    width: min-content;
+    width: fit-content;
+    max-width: 255px;
     text-align: center;
 }
